@@ -7,9 +7,9 @@ const Contact = () => {
     <section id="contact" className="py-20 gradient-primary text-primary-foreground">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">Let's Connect</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">Wish to contact me?</h2>
           <p className="text-lg mb-12 text-primary-foreground/90">
-            I'm always open to discussing new opportunities, collaborations, or just having a chat about tech!
+            I'm always open to discussing new collaborations or just having a chat about tech!
           </p>
           
           <div className="grid md:grid-cols-3 gap-6 mb-12">
@@ -20,10 +20,10 @@ const Contact = () => {
                 </div>
                 <h3 className="font-semibold mb-2">Email</h3>
                 <a 
-                  href="mailto:john.doe@example.com" 
+                  href="mailto:e.lavergne@outlook.com" 
                   className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors flex items-center justify-center gap-1"
                 >
-                  john.doe@example.com
+                  e.lavergne@outlook.com
                   <ExternalLink className="h-3 w-3" />
                 </a>
               </CardContent>
@@ -36,7 +36,7 @@ const Contact = () => {
                 </div>
                 <h3 className="font-semibold mb-2">LinkedIn</h3>
                 <a 
-                  href="https://linkedin.com/in/johndoe" 
+                  href="https://www.linkedin.com/in/elsa-lavergne-a98826263/" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors flex items-center justify-center gap-1"
@@ -54,12 +54,12 @@ const Contact = () => {
                 </div>
                 <h3 className="font-semibold mb-2">GitHub</h3>
                 <a 
-                  href="https://github.com/johndoe" 
+                  href="https://github.com/Yxshad" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors flex items-center justify-center gap-1"
                 >
-                  @johndoe
+                  @Yxshad
                   <ExternalLink className="h-3 w-3" />
                 </a>
               </CardContent>
@@ -69,7 +69,7 @@ const Contact = () => {
           <Button
             size="lg"
             variant="secondary"
-            onClick={() => window.location.href = 'mailto:john.doe@example.com'}
+            onClick={() => window.location.href = 'mailto:e.lavergne@outlook.com'}
             className="group"
           >
             Get In Touch
@@ -80,7 +80,7 @@ const Contact = () => {
       
       <div className="container mx-auto px-6 mt-20">
         <div className="text-center text-sm text-primary-foreground/70">
-          <p>© 2024 John Doe. Built with passion and lots of coffee ☕</p>
+          <p>© 2025 Elsa Lavergne - It was definitely built </p>
         </div>
       </div>
     </section>

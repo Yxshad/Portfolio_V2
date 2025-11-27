@@ -6,6 +6,7 @@ import Projects from "@/components/Projects";
 import Engagement from "@/components/Engagement";
 import Mobility from "@/components/Mobility";
 import Contact from "@/components/Contact";
+import Speech from "@/components/Speech";
 
 const Index = () => {
   return (
@@ -15,6 +16,7 @@ const Index = () => {
       <Career />
       <Skills />
       <Projects />
+      <Speech/>
       <Engagement />
       <Mobility />
       <Contact />
