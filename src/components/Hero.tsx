@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
+import elsaImage from "../img/Elsa(ME).jpg";
 
 const Hero = () => {
   const scrollToSection = (id: string) => {
@@ -7,7 +8,10 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center gradient-subtle relative overflow-hidden">
+    <section
+      id="home"
+      className="min-h-screen flex items-center justify-center gradient-subtle relative overflow-hidden"
+    >
       <div className="absolute inset-0 bg-grid-pattern opacity-5" />
       <div className="container mx-auto px-6 py-20 relative z-10">
         <div className="max-w-4xl mx-auto text-center animate-fade-in">
@@ -20,7 +24,7 @@ const Hero = () => {
           </div>
 
           <div>
-            <img src="../img/Elsa(ME).jpg" alt="Elsa Lavergne" className="w-40 h-40 rounded-full mx-auto mb-6 shadow-lg" />
+            <img src={elsaImage} alt="Elsa Lavergne" className="w-40 h-40 rounded-full mx-auto mb-6 shadow-lg" />
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-[rgb(76,29,113)] to-[rgb(132,100,166)] bg-clip-text text-transparent">
@@ -37,7 +41,6 @@ const Hero = () => {
             <span className="px-4 py-2 bg-card rounded-full text-sm shadow-card">🎨 Digital artist</span>
             <span className="px-4 py-2 bg-card rounded-full text-sm shadow-card">🚀 React Enjoyer</span>
             <span className="px-4 py-2 bg-card rounded-full text-sm shadow-card">📚 Writing and Reading Fan</span>
-            <span className="px-4 py-2 bg-card rounded-full text-sm shadow-card">🌍 Travel Lover</span>
           </div>
           <Button
             size="lg"

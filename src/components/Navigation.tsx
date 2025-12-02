@@ -42,7 +42,7 @@ const Navigation = () => {
             onClick={() => scrollToSection("#home")}
             className="text-xl font-bold gradient-primary bg-clip-text text-transparent hover:opacity-80 transition-opacity"
           >
-            JD
+            WOOOSH
           </button>
 
           {/* Desktop Navigation */}

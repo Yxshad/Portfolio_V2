@@ -41,7 +41,7 @@ const Contact = () => {
                   rel="noopener noreferrer"
                   className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors flex items-center justify-center gap-1"
                 >
-                  /in/johndoe
+                  Elsa Lavergne
                   <ExternalLink className="h-3 w-3" />
                 </a>
               </CardContent>

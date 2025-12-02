@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Globe2, MapPin } from "lucide-react";
+import bgGif from "../img/background/243a1829582f5f7fc30b0337e2468818.gif";
 
 const experiences = [
   {
@@ -38,8 +39,13 @@ const experiences = [
 
 const Mobility = () => {
   return (
-    <section id="mobility" className="py-20 bg-background">
-      <div className="container mx-auto px-6">
+    <section
+      id="mobility"
+      className="py-20 bg-cover bg-center bg-fixed bg-no-repeat relative"
+      style={{ backgroundImage: `url(${bgGif})` }}
+    >
+      <div style={{ position: 'absolute', inset: 0, backgroundColor: 'rgba(132,100,166,0.6)' }} />
+      <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">International Experience</h2>

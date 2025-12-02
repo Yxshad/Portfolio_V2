@@ -25,8 +25,8 @@ const Skills = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Skills & Technologies</h2>
-            <p className="text-lg text-muted-foreground">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-[rgb(76,29,113)]">Skills & Technologies</h2>
+            <p className="text-lg text-black/80">
               Tools and technologies I work with
             </p>
           </div>
@@ -38,13 +38,13 @@ const Skills = () => {
                 className="bg-card p-8 rounded-lg shadow-card hover:shadow-elegant transition-all duration-300 animate-fade-in"
                 style={{ animationDelay: `${index * 100}ms` }}
               >
-                <h3 className="text-2xl font-bold mb-6 text-primary">{category.title}</h3>
+                <h3 className="text-2xl font-bold mb-6 text-[rgb(76,29,113)]">{category.title}</h3>
                 <div className="flex flex-wrap gap-2">
                   {category.skills.map((skill, skillIndex) => (
                     <Badge
                       key={skillIndex}
                       variant="secondary"
-                      className="text-sm py-2 px-4 hover:bg-primary hover:text-primary-foreground transition-colors cursor-default"
+                      className="text-sm py-2 px-4 hover:bg-[rgb(132,100,166)] hover:text-white transition-colors cursor-default"
                     >
                       {skill}
                     </Badge>

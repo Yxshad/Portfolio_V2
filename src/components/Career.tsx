@@ -1,4 +1,5 @@
 import { Briefcase } from "lucide-react";
+import bgImage from "../img/background/pexels-artempodrez-7233109.jpg";
 
 const careerData = [
   {
@@ -23,8 +24,13 @@ const careerData = [
 
 const Career = () => {
   return (
-    <section id="career" className="py-20 bg-[rgb(132,100,166)]">
-      <div className="container mx-auto px-6">
+    <section
+      id="career"
+      className="py-20 bg-cover bg-center bg-fixed bg-no-repeat relative"
+      style={{ backgroundImage: `url(${bgImage})` }}
+    >
+      <div style={{ position: 'absolute', inset: 0, backgroundColor: 'rgba(132,100,166,0.6)' }} />
+      <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">Career Journey</h2>

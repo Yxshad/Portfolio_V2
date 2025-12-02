@@ -1,5 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Heart } from "lucide-react";
+import bgImage from "../img/background/aesthetic-dreamy-background-purple-cloudy-sky-vector-glitter-design_53876-156334.avif"
 
 const engagements = [
   {
@@ -27,7 +28,7 @@ const engagements = [
 
 const Engagement = () => {
   return (
-    <section id="engagement" className="py-20 gradient-subtle">
+    <section id="engagement" className="py-20 bg-cover bg-center bg-fixed bg-no-repeat" style={{ backgroundImage: `url(${bgImage})` }}>
       <div className="container mx-auto px-6">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
