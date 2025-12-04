@@ -3,8 +3,10 @@ import App from "./App.tsx";
 import "./index.css";
 import { BrowserRouter } from 'react-router-dom';
 
+const basename = import.meta.env.VITE_BASE_PATH || '/';
+
 createRoot(document.getElementById("root")!).render(
-  <BrowserRouter basename="/Portfolio_V2/">
+  <BrowserRouter basename={basename}>
     <App />
   </BrowserRouter>
 );
