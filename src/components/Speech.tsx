@@ -2,7 +2,7 @@ import { Briefcase } from "lucide-react";
 
 const videoData = [
   {
-    link: "https://www.youtube.com/watch?v=SAQUBkJCIVc&pp=ygUHcGhpc25vbQ%3D%3D",
+    link: "https://www.youtube.com/embed/JBjIRBz8YaY",
     title: "Digital Science Student and DevOps Apprentice",
     description: "An elevator speech quickly presenting who I am, what I do, what I used to do and aspire to become, who inspired me on this path...",
   }
@@ -35,7 +35,7 @@ const Speech = () => {
                           <iframe
                             width="100%"
                             height="100%"
-                            src={item.link.replace("watch?v=", "embed/")}
+                            src={item.link}
                             title={item.title}
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen

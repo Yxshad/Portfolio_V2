@@ -59,13 +59,13 @@ const Projects = () => {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {projects.map((project, index) => (
-              <Card
-                key={index}
-                className="overflow-hidden hover:shadow-elegant transition-all duration-300 animate-fade-in border-border"
-                style={{ animationDelay: `${index * 100}ms` }}
-              >
+              <div className="flex flex-wrap -mx-4 justify-center">
+                {projects.map((project, index) => (
+                  <div key={index} className="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+                    <Card
+                      className="h-full overflow-hidden hover:shadow-elegant transition-all duration-300 animate-fade-in border-border"
+                      style={{ animationDelay: `${index * 100}ms` }}
+                    >
                 <CardHeader className="bg-white">
                   <CardTitle className="text-xl text-[rgb(76,29,113)]">{project.title}</CardTitle>
                   <CardDescription className="text-black flex items-center gap-4 mt-2">
@@ -110,8 +110,9 @@ const Projects = () => {
                       </div>
                     </div>
                   </div>
-                </CardContent>
-              </Card>
+                  </CardContent>
+                </Card>
+              </div>
             ))}
           </div>
         </div>

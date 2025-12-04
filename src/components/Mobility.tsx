@@ -1,39 +1,29 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Globe2, MapPin } from "lucide-react";
 import bgGif from "../img/background/243a1829582f5f7fc30b0337e2468818.gif";
+import preuveImage from "../img/Preuve.png";
 
 const experiences = [
   {
-    country: "United States",
-    city: "San Francisco",
-    duration: "6 months",
-    year: "2023",
-    purpose: "Tech conference and collaborative project with US-based team",
-    highlights: "Worked with diverse international team, learned about Silicon Valley startup culture",
+    country: "Canada",
+    city: "Chicoutimi",
+    duration: "9 weeks",
+    year: "2027-2028",
+    purpose: "Add a videogame dimension to my studies and discover Canadian culture",
   },
   {
-    country: "Germany",
-    city: "Berlin",
-    duration: "3 months",
-    year: "2022",
+    country: "Brussels Free University",
+    city: "Brussels",
+    duration: "9 weeks",
+    year: "2027-2028",
     purpose: "Professional exchange program",
-    highlights: "Experienced European tech scene, improved German language skills, worked on IoT projects",
   },
   {
-    country: "Japan",
-    city: "Tokyo",
-    duration: "2 months",
-    year: "2021",
-    purpose: "International internship",
-    highlights: "Learned about Japanese work culture, contributed to mobile app development",
-  },
-  {
-    country: "United Kingdom",
-    city: "London",
-    duration: "1 month",
-    year: "2020",
-    purpose: "Training program",
-    highlights: "Advanced training in cloud architecture and DevOps practices",
+    country: "DBU Ireland",
+    city: "Dublin",
+    duration: "9 weeks",
+    year: "2027-2028",
+    purpose: "Discover the Irish culture and improve my English skills",
   },
 ];
 
@@ -48,19 +38,19 @@ const Mobility = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">International Experience</h2>
-            <p className="text-lg text-muted-foreground">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">International Experience</h2>
+            <p className="text-lg text-muted-foreground text-white">
               Working and learning across borders
             </p>
           </div>
           
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="flex flex-wrap -mx-4 justify-center">
             {experiences.map((exp, index) => (
-              <Card
-                key={index}
-                className="overflow-hidden hover:shadow-elegant transition-all duration-300 animate-fade-in"
-                style={{ animationDelay: `${index * 100}ms` }}
-              >
+              <div key={index} className="w-full md:w-1/2 px-4 mb-6">
+                <Card
+                  className="h-full overflow-hidden hover:shadow-elegant transition-all duration-300 animate-fade-in"
+                  style={{ animationDelay: `${index * 100}ms` }}
+                >
                 <CardContent className="pt-6">
                   <div className="flex items-start gap-4 mb-4">
                     <div className="p-3 rounded-lg bg-primary/10">
@@ -85,15 +75,19 @@ const Mobility = () => {
                       <p className="text-sm text-foreground">{exp.purpose}</p>
                     </div>
                     
-                    <div>
-                      <p className="text-xs font-semibold text-muted-foreground uppercase mb-1">Highlights</p>
-                      <p className="text-sm text-foreground">{exp.highlights}</p>
-                    </div>
                   </div>
                 </CardContent>
-              </Card>
+                </Card>
+              </div>
             ))}
           </div>
+        </div>
+        <div className="mt-12 flex justify-center">
+          <img
+            src={preuveImage}
+            alt="Proof of experience"
+            className="max-w-2xl w-full rounded-lg shadow-lg"
+          />
         </div>
       </div>
     </section>

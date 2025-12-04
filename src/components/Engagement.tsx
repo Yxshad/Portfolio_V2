@@ -4,25 +4,18 @@ import bgImage from "../img/background/aesthetic-dreamy-background-purple-cloudy
 
 const engagements = [
   {
-    organization: "Code for Good Foundation",
-    role: "Volunteer Developer",
-    period: "2022 - Present",
-    description: "Building free websites and applications for local non-profit organizations to help them reach more people.",
-    impact: "Helped 5+ organizations improve their online presence and reach 10,000+ more people.",
+    organization: "DnD Community Group",
+    role: "Player and Organizer",
+    period: "2024-Present",
+    description: "Player and organizer of different tabletop RPG Games. Help with organization, management of the group and events.",
+    impact: "The club contributes to self-confidence and community support. Helps with oral presentation and improvisation for each member. Also contributes to community support and fights isolation for people with difficulties to socialize",
   },
   {
-    organization: "Tech Education Initiative",
-    role: "Mentor",
-    period: "2021 - Present",
-    description: "Mentoring underprivileged youth in coding and web development, helping them start careers in tech.",
-    impact: "Mentored 20+ students, with 8 securing their first tech jobs.",
-  },
-  {
-    organization: "Open Source Contributions",
-    role: "Contributor",
-    period: "2020 - Present",
-    description: "Active contributor to various open-source projects, focusing on accessibility and documentation.",
-    impact: "100+ contributions across multiple repositories, improving tools used by thousands.",
+    organization: "L'Abri",
+    role: "Occasional Volunteer",
+    period: "2025 - Present",
+    description: "Feed and help capture wild cats to neuter them and avoid overpopulation.",
+    impact: "Helps control the feral cat population, improving community health and animal welfare. Avoids ecological imbalance caused by overpopulation of feral cats. Prevents road accidents caused by wild cats.",
   },
 ];
 
