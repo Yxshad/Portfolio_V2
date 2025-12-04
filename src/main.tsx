@@ -4,7 +4,7 @@ import "./index.css";
 import { BrowserRouter } from 'react-router-dom';
 
 createRoot(document.getElementById("root")!).render(
-  <BrowserRouter basename="/Yxshad/Portfolio_V2/">
+  <BrowserRouter basename="/Portfolio_V2/">
     <App />
   </BrowserRouter>
 );
