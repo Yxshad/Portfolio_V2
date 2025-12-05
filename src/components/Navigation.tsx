@@ -43,7 +43,7 @@ const Navigation = () => {
             onClick={() => scrollToSection("#home")}
             className="flex items-center hover:opacity-80 transition-opacity"
           >
-            <img src={logoImage} alt="Logo" className="w-12 h-12" />
+            <img src={logoImage} alt="Logo" className="w-12 h-5" />
           </button>
 
           {/* Desktop Navigation */}
