@@ -41,12 +41,9 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           <button
             onClick={() => scrollToSection("#home")}
-            className="flex items-center gap-2 hover:opacity-80 transition-opacity"
+            className="flex items-center hover:opacity-80 transition-opacity"
           >
-            <img src={logoImage} alt="Logo" className="w-10 h-10" />
-            <span className="text-xl font-bold gradient-primary bg-clip-text text-transparent">
-              WOOOSH
-            </span>
+            <img src={logoImage} alt="Logo" className="w-12 h-12" />
           </button>
 
           {/* Desktop Navigation */}
