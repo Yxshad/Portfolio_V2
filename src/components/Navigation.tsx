@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import logoImage from "../img/Logo-toulouse-inp-N7.png";
 
 const navItems = [
   { label: "Home", href: "#home" },
@@ -38,14 +39,15 @@ const Navigation = () => {
     >
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-16">
-          <img src="../img/Logo-toulouse-inp-N7.png" alt="Logo" className="w-10 h-10">
           <button
             onClick={() => scrollToSection("#home")}
-            className="text-xl font-bold gradient-primary bg-clip-text text-transparent hover:opacity-80 transition-opacity"
+            className="flex items-center gap-2 hover:opacity-80 transition-opacity"
           >
-            WOOOSH
+            <img src={logoImage} alt="Logo" className="w-10 h-10" />
+            <span className="text-xl font-bold gradient-primary bg-clip-text text-transparent">
+              WOOOSH
+            </span>
           </button>
-          </img>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
