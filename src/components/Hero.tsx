@@ -50,6 +50,13 @@ const Hero = () => {
             Explore My Journey
             <ArrowDown className="ml-2 h-4 w-4 group-hover:translate-y-1 transition-transform" />
           </Button>
+          {/* BUTTONS TO ENGLISH AND FRENCH CV*/}
+          <Button size="lg" className="ml-4 bg-[rgba(132,100,166,0.30)] text-[rgb(76,29,113)]" as="a" href="/img/Elsa_Lavergne_CV_Anglais.pdf" target="_blank" rel="noopener noreferrer">
+            View CV (EN)
+          </Button>
+          <Button size="lg" className="ml-4 bg-[rgba(132,100,166,0.30)] text-[rgb(76,29,113)]" as="a" href="/img/Elsa_Lavergne_CV_.pdf" target="_blank" rel="noopener noreferrer">
+            Voir CV (FR)
+          </Button>
         </div>
       </div>
     </section>
