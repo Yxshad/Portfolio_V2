@@ -42,21 +42,33 @@ const Hero = () => {
             <span className="px-4 py-2 bg-card rounded-full text-sm shadow-card">🚀 React Enjoyer</span>
             <span className="px-4 py-2 bg-card rounded-full text-sm shadow-card">📚 Writing and Reading Fan</span>
           </div>
-          <Button
-            size="lg"
-            onClick={() => scrollToSection('career')}
-            className="group bg-[rgba(132,100,166,0.30)] text-[rgb(76,29,113)]"
-          >
-            Explore My Journey
-            <ArrowDown className="ml-2 h-4 w-4 group-hover:translate-y-1 transition-transform" />
-          </Button>
           {/* BUTTONS TO ENGLISH AND FRENCH CV*/}
-          <Button size="lg" className="ml-4 bg-[rgba(132,100,166,0.30)] text-[rgb(76,29,113)]" as="a" href="/img/Elsa_Lavergne_CV_Anglais.pdf" target="_blank" rel="noopener noreferrer">
-            View CV (EN)
-          </Button>
-          <Button size="lg" className="ml-4 bg-[rgba(132,100,166,0.30)] text-[rgb(76,29,113)]" as="a" href="/img/Elsa_Lavergne_CV_.pdf" target="_blank" rel="noopener noreferrer">
-            Voir CV (FR)
-          </Button>
+          <Button asChild
+  size="lg"
+  className="ml-4 bg-[rgba(132,100,166,0.30)] text-[rgb(76,29,113)]"
+>
+  <a
+    href="/Lavergne_Elsa_CV_Anglais.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    View CV (EN)
+  </a>
+</Button>
+
+<Button asChild
+  size="lg"
+  className="ml-4 bg-[rgba(132,100,166,0.30)] text-[rgb(76,29,113)]"
+>
+  <a
+    href="/Lavergne_Elsa_CV.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Voir CV (FR)
+  </a>
+</Button>
+
         </div>
       </div>
     </section>
