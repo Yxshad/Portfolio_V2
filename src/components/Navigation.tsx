@@ -6,10 +6,10 @@ import logoImage from "../img/Logo-toulouse-inp-N7.png";
 const navItems = [
   { label: "Home", href: "#home" },
   { label: "Career", href: "#career" },
+  { label: "Target Sheet", href: "#target-sheet" },
   { label: "Skills", href: "#skills" },
   { label: "Projects", href: "#projects" },
   { label: "Engagement", href: "#engagement" },
-  { label: "Mobility", href: "#mobility" },
   { label: "Contact", href: "#contact" },
 ];
 

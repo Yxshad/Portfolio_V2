@@ -1,0 +1,103 @@
+[
+  {
+    "id": "dcu",
+    "rank": "1st choice",
+    "university": "Dublin City University (DCU)",
+    "city": "Dublin",
+    "country": "Ireland",
+    "flag": "🇮🇪",
+    "program": "Erasmus+ Studies",
+    "period": "S9 exchange · Fall 2027",
+    "why": "Fully English-speaking environment and a vibrant tech scene in Dublin to strengthen my English and international profile.",
+    "pdf": "cover-letters/Lavergne_Elsa_Cover_Letter_DCU.pdf",
+    "letter": {
+      "recipient": "Admissions & International Office\nDublin City University (DCU)\nDublin, Ireland",
+      "subject": "Application for an Erasmus+ exchange semester (S9, Fall 2027)",
+      "salutation": "Dear Admissions Committee,",
+      "paragraphs": [
+        "I am a second-year engineering student in Digital Science at ENSEEIHT (Toulouse INP), currently following my degree as an apprentice developer at AG-CARTO. I am writing to apply for an Erasmus+ exchange semester at Dublin City University during my ninth semester, in the fall of 2027. Dublin is my first choice, and I would be very proud to represent my school there.",
+        "Over the past three years, my apprenticeship has taught me to build React widgets for real users and to take part in the infrastructure and DevOps side of a company's products. Before ENSEEIHT, I earned a French bachelor's degree in Computer Science at the Institute of Technology of Bayonne, where I led a team during a regional data visualisation challenge and took part in the 'Nuit de l'Info' hackathon twice. These experiences gave me solid technical foundations, but also a real taste for teamwork, project management and building things people actually use.",
+        "Studying in Ireland would allow me to work in a fully English-speaking academic environment, which is essential for the international career I am aiming for. I am eager to deepen my knowledge in software engineering and cloud technologies, and to experience a teaching approach that is more project-based and open to industry. Dublin's dynamic tech ecosystem, home to many international software companies, makes it an ideal place to learn how these subjects are practised beyond France.",
+        "Beyond academics, I am curious about Irish culture and its strong storytelling tradition, which echoes my personal passions for writing and drawing. I am also used to joining and organising communities, such as the tabletop role-playing group I help run, and I would be glad to get involved in student life on campus.",
+        "Thank you for considering my application. I would be delighted to discuss my motivation further and remain at your disposal for any additional information."
+      ],
+      "closing": "Yours sincerely,"
+    }
+  },
+  {
+    "id": "uliege",
+    "rank": "2nd choice",
+    "university": "University of Liège",
+    "city": "Liège",
+    "country": "Belgium",
+    "flag": "🇧🇪",
+    "program": "Erasmus+ Studies",
+    "period": "S9 exchange · Fall 2027",
+    "why": "A large research university with a strong engineering faculty, close to home but with a different academic culture.",
+    "pdf": "cover-letters/Lavergne_Elsa_Cover_Letter_ULiege.pdf",
+    "letter": {
+      "recipient": "International Relations Office\nUniversity of Liège (ULiège)\nLiège, Belgium",
+      "subject": "Application for an Erasmus+ exchange semester (S9, Fall 2027)",
+      "salutation": "Dear Sir or Madam,",
+      "paragraphs": [
+        "I am a second-year engineering student in Digital Science at ENSEEIHT (Toulouse INP), where I follow my curriculum as an apprentice developer at the company AG-CARTO. I would like to apply for an Erasmus+ exchange semester at the University of Liège during my ninth semester, in the fall of 2027.",
+        "My background combines academic training and professional practice. I hold a French bachelor's degree in Computer Science from the Institute of Technology of Bayonne, and since 2023 I have been developing React widgets and contributing to infrastructure work at AG-CARTO. I have also taken part in team challenges such as the 'Nuit de l'Info' hackathon and a regional data visualisation competition, in which I coordinated the development of a website and its charts.",
+        "The University of Liège appeals to me as a large, research-oriented university with a long-standing engineering faculty. I would like to take advantage of its course offering in computer science to strengthen my knowledge of software engineering, distributed systems and data, and to discover a teaching culture that differs from the French 'grande école' model while remaining close to it. Studying in a city that is both historic and student-friendly would also be a great opportunity to grow personally.",
+        "I am organised, persistent and comfortable working in groups, qualities I developed by balancing my studies with my apprenticeship. I am confident that this semester in Liège would bring me valuable academic perspective and that I could contribute positively to the classes and projects I join.",
+        "Thank you very much for your attention. I remain available for any further information and would be glad to discuss my application."
+      ],
+      "closing": "Yours faithfully,"
+    }
+  },
+  {
+    "id": "uib",
+    "rank": "3rd choice",
+    "university": "Universitetet i Bergen",
+    "city": "Bergen",
+    "country": "Norway",
+    "flag": "🇳🇴",
+    "program": "Erasmus+ Studies",
+    "period": "S9 exchange · Fall 2027",
+    "why": "English-taught master's courses in informatics, a research-driven department and the chance to live in Scandinavia.",
+    "pdf": "cover-letters/Lavergne_Elsa_Cover_Letter_UiB.pdf",
+    "letter": {
+      "recipient": "Department of Informatics / International Office\nUniversity of Bergen (Universitetet i Bergen)\nBergen, Norway",
+      "subject": "Application for an Erasmus+ exchange semester (S9, Fall 2027)",
+      "salutation": "Dear Admissions Committee,",
+      "paragraphs": [
+        "I am a second-year engineering student in Digital Science at ENSEEIHT (Toulouse INP) and an apprentice developer at AG-CARTO. I am writing to apply for an Erasmus+ exchange semester at the University of Bergen during my ninth semester, in the fall of 2027.",
+        "My path has always mixed theory and practice. After a French bachelor's degree in Computer Science at the Institute of Technology of Bayonne, I joined ENSEEIHT through a work-study programme. At AG-CARTO, I build React components and take part in infrastructure and DevOps tasks. I also enjoy data visualisation: during a regional challenge, I supervised a small team that analysed agricultural data and presented it through an interactive website.",
+        "The University of Bergen attracts me for its research-driven Department of Informatics and its master's-level courses taught in English. I would like to use this semester to strengthen my theoretical background, in particular in algorithms, data and visualisation, and to see how a Norwegian university approaches teaching, with its emphasis on autonomy and close contact between students and lecturers.",
+        "Living in Bergen would also be a strong personal experience. I am attracted by Scandinavian culture, its relationship with nature and its collaborative way of working. As someone who enjoys community life, whether organising tabletop role-playing games or volunteering for an animal welfare association, I would be happy to take part in the international student community.",
+        "Thank you for taking the time to consider my application. I would be glad to provide any further information you may need."
+      ],
+      "closing": "Kind regards,"
+    }
+  },
+  {
+    "id": "aalto",
+    "rank": "Bonus",
+    "university": "Aalto University",
+    "city": "Espoo",
+    "country": "Finland",
+    "flag": "🇫🇮",
+    "program": "Erasmus+ Studies",
+    "period": "S9 exchange · Fall 2027",
+    "pending": "If the partnership is validated in time",
+    "why": "Renowned for blending technology, design and entrepreneurship, and home to a strong game design community.",
+    "pdf": "cover-letters/Lavergne_Elsa_Cover_Letter_Aalto.pdf",
+    "letter": {
+      "recipient": "Admissions Services – Exchange Students\nAalto University\nEspoo, Finland",
+      "subject": "Application for an Erasmus+ exchange semester (S9, Fall 2027)",
+      "salutation": "Dear Admissions Committee,",
+      "paragraphs": [
+        "I am a second-year engineering student in Digital Science at ENSEEIHT (Toulouse INP) and an apprentice developer at AG-CARTO. Should the exchange agreement between our institutions be confirmed, I would be very happy to apply for an Erasmus+ exchange semester at Aalto University during my ninth semester, in the fall of 2027.",
+        "During my apprenticeship, I develop React widgets and contribute to infrastructure and DevOps work, which taught me to deliver reliable software in a professional context. Before ENSEEIHT, I completed a French bachelor's degree in Computer Science at the Institute of Technology of Bayonne, where I took part in two editions of the 'Nuit de l'Info' hackathon. One of our projects was a small visual-novel style game to raise awareness about climate change, an experience that made me want to explore game development further.",
+        "Aalto University is known for bringing together technology, art and design, and this is exactly what attracts me. Alongside computer science courses, I would love to discover how game design and interactive media are taught at Aalto, and to work on projects with students from different backgrounds. Finland's culture of innovation and its thriving game industry make it a particularly inspiring place for me.",
+        "Outside of my studies, I write fantasy stories and design characters through digital art. I believe Aalto's multidisciplinary environment would let me connect these creative interests with my engineering skills, and I would bring curiosity, persistence and a strong team spirit to the projects I join.",
+        "Thank you for your consideration. I remain at your disposal for any further information."
+      ],
+      "closing": "Yours sincerely,"
+    }
+  }
+]
