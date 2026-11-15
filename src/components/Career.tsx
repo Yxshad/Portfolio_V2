@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Briefcase, Download, Eye, FileText, GraduationCap, MapPin, Mail, Sparkles } from "lucide-react";
+import { Briefcase, Download, Eye, FileText, GraduationCap, MapPin, Mail, Presentation, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   Dialog,
@@ -11,6 +11,7 @@ import {
 } from "@/components/ui/dialog";
 import bgImage from "../img/background/pexels-artempodrez-7233109.jpg";
 import cvUrl from "../img/Lavergne_Elsa_CV.pdf";
+import cepSlidesUrl from "../img/Lavergne_Elsa_CEP_AG-CARTO.pdf";
 import proofImage from "../img/Preuve.png";
 import targetSchools from "@/data/targetSchools.json";
 
@@ -176,6 +177,44 @@ const Career = () => {
                 </a>
               </Button>
             </div>
+          </div>
+
+          {/* CEP presentation */}
+          <div className="mt-6 bg-card rounded-xl shadow-card p-6 md:p-8 animate-fade-in">
+            <div className="flex flex-col sm:flex-row items-center gap-6">
+              <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-[rgba(132,100,166,0.20)]">
+                <Presentation className="h-8 w-8 text-[rgb(76,29,113)]" />
+              </div>
+              <div className="flex-1 text-center sm:text-left">
+                <h3 className="text-xl font-bold text-[rgb(76,29,113)]">CEP Presentation</h3>
+                <p className="text-sm text-black/70">
+                  AG-CARTO, its business model and my career evolution plan for 2026 - 2031.
+                </p>
+              </div>
+              <div className="flex gap-3">
+                <Button asChild variant="outline" className="border-[rgb(132,100,166)] text-[rgb(76,29,113)] hover:bg-[rgba(132,100,166,0.15)] hover:text-[rgb(76,29,113)]">
+                  <a href={cepSlidesUrl} target="_blank" rel="noopener noreferrer">
+                    <Eye className="h-4 w-4" /> View
+                  </a>
+                </Button>
+                <Button asChild className="bg-[rgb(76,29,113)] text-white hover:bg-[rgb(96,49,133)]">
+                  <a href={cepSlidesUrl} download="Lavergne_Elsa_CEP_AG-CARTO.pdf">
+                    <Download className="h-4 w-4" /> Download
+                  </a>
+                </Button>
+              </div>
+            </div>
+            <details className="group mt-6 border-t border-black/10 pt-4">
+              <summary className="cursor-pointer list-none text-sm font-medium text-[rgb(76,29,113)] flex items-center justify-between">
+                <span>Preview the slides</span>
+                <span className="transition-transform group-open:rotate-180">▾</span>
+              </summary>
+              <iframe
+                src={cepSlidesUrl}
+                title="CEP presentation slides"
+                className="mt-4 w-full aspect-video rounded-lg border"
+              />
+            </details>
           </div>
 
           {/* Target sheet */}
